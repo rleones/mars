@@ -1,0 +1,8 @@
+---
+applications:
+- name: mars-rest-service
+  memory: 256M
+  instances: 1
+  host: rest-service
+  domain: guides.spring.io
+  path: build/libs/mars-rest-service-1.0.0.jar
