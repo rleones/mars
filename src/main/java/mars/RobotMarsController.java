@@ -17,7 +17,7 @@ public class RobotMarsController {
         response.sendError(HttpStatus.BAD_REQUEST.value());
     }
 
-    @RequestMapping("/rest/mars/{movements}")
+    @RequestMapping(value = "/rest/mars/{movements}", method = RequestMethod.POST)
     public Robot mars(@PathVariable("movements") String movements) {
         Robot robot = new Robot();
 
