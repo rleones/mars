@@ -5,7 +5,7 @@ Mars project - Robot test
 
 Projeto de simulação da movimentação de robôs em Marte para o processo seletivo da Conta Azul.
 
-# Exemplos de requisições:
+### Exemplos de requisições:
 
 Entrada: curl -s --request POST http://localhost:8080/rest/mars/MMRMMRMM
 Saída esperada: (2, 0, S)
